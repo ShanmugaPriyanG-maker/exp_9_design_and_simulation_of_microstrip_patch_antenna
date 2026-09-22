@@ -9,7 +9,7 @@ Design and Simulation of a Microstrip Patch Antenna using using Ansys HFSS
 
 To design and simulate a rectangular microstrip patch antenna at a specified resonant frequency using Ansys HFSS, and to study its return loss, VSWR, bandwidth, gain and radiation pattern.
 
-## Software Used 
+## Software Used
 
 Ansys HFSS (High Frequency Structure Simulator)
 
@@ -120,16 +120,32 @@ This experiment uses the **inset microstrip line feed** (or coaxial probe feed, 
 
 ## Observations
 
-*(Include your own table / plots relevant to the experiment.)*
+<img width="1917" height="897" alt="Screenshot 2026-09-13 093417" src="https://github.com/user-attachments/assets/a5da95b8-c0e3-401f-8729-5d99a057d445" />
+
+<img width="1623" height="661" alt="Screenshot 2026-09-13 093716" src="https://github.com/user-attachments/assets/389d67c8-fc07-4a09-8b2c-d474707fe28c" />
+
+<img width="1917" height="782" alt="Screenshot 2026-09-13 093732" src="https://github.com/user-attachments/assets/08f34aaf-903e-48c4-885f-0e0704219117" />
+
 
 
 
 ### Graphs
 
 
-<img width="1200" height="1600" alt="WhatsApp Image 2026-09-19 at 10 38 51 AM (3)" src="https://github.com/user-attachments/assets/a447add3-1c4a-4557-a060-7a0d8ca02438" />
-<img width="1200" height="1600" alt="WhatsApp Image 2026-09-19 at 10 38 51 AM (4)" src="https://github.com/user-attachments/assets/7e785f3b-e1ce-409d-bc76-ff9a62f8e3a2" />
+* S11 vs frequency
+<img width="1621" height="662" alt="Screenshot 2026-09-13 093430" src="https://github.com/user-attachments/assets/10cc6b4a-4d63-401c-951d-c523a60ccb08" />
 
+
+
+* VSWR vs frequency
+
+<img width="1623" height="662" alt="Screenshot 2026-09-13 093449" src="https://github.com/user-attachments/assets/c00fb669-22dc-4086-a927-5657036221a3" />
+
+
+* 2-D E-plane and H-plane radiation patterns
+
+
+<img width="1620" height="657" alt="Screenshot 2026-09-13 093522" src="https://github.com/user-attachments/assets/b2472055-6622-461c-bb57-bac1804cc2d7" />
 
 
 ---
@@ -144,16 +160,16 @@ This experiment uses the **inset microstrip line feed** (or coaxial probe feed, 
 
 ## Result
 
-Resonant Frequency = GHz  
+Resonant Frequency = 2.4GHz  
 
-Return loss = dB
+Return loss =-25 dB
 
-VSWR = 
+VSWR = 1.12
 
-Gain = 
+Gain = 6.5DBI
 
 
 ## Conclusion
 
-A rectangular microstrip patch antenna was designed and simulated at ______ GHz using Ansys HFSS.
+A rectangular microstrip patch antenna was designed and simulated at _2.4_____ GHz using Ansys HFSS.
 
